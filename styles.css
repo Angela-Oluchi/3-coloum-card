@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Lexend Deca', sans-serif;
+}
+
+.all-col {
+    display:flex;
+    width: 50rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-col {
+   color:  hsla(0, 0%, 100%, 0.75);
+    border-radius: 0.5rem;
+}
+
+.icon-sedans {
+    background-image: url(./img/icon-sedans.svg);
+    width: 4rem;
+    height: 2.5rem;
+    display: flex;
+}
+
+.icon-suvs {
+    background-image: url(./img/icon-suvs.svg);
+    width: 4rem;
+    height: 2.5rem;
+    display: flex;
+}
+
+.icon-luxury {
+    background-image: url(./img/icon-luxury.svg);
+    width: 4rem;
+    height: 2.5rem;
+    display: flex;
+}
+
+.sed-col {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 3rem;
+}
+
+.suvs-col {
+    background-color: hsl(184, 100%, 22%);
+    padding: 3rem;
+}
+
+.lux-col {
+    background-color:hsl(179, 100%, 13%);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 3rem;
+}
+
+h2 {
+    padding-top: 3rem;
+}
+
+p {
+    padding: 1.5rem 0 5rem 0;
+    font-size: 15px;
+    line-height: 1.2rem;
+}
+
+button {
+    border-radius: 1rem;
+    border: none;
+    width: 6rem;
+    padding: 0.5rem;
+}
+
+.btn-one {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-two {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-three {
+    color:hsl(179, 100%, 13%)
+}
+
+botton:hover {
+    background-color: red;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .all-col {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        height: 70vh;
+        margin-bottom: 10rem;
+        margin-top: 10rem;
+        border-radius: 1rem;
+        
+    }
+    }
+
+    
