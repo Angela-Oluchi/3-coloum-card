@@ -91,12 +91,21 @@ button {
 }
 
 .btn-three {
-    color:hsl(179, 100%, 13%)
+    color:hsl(179, 100%, 13%);
 }
 
-botton:hover {
-    background-color: red;
-    color: black;
+.btn-one:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
+.btn-two:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+.btn-three:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -108,7 +117,6 @@ botton:hover {
         margin-bottom: 10rem;
         margin-top: 10rem;
         border-radius: 1rem;
-        
     }
     }
 
